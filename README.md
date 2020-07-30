@@ -59,5 +59,5 @@ First, you need to create a folder `assets` inside `MyModuleLibrary/src/main`
 ###  Publishing
 
 1. Run `yarn run build-android-bundle` to create the bundle
-2. Run `./gradlew :SellingCartLibrary:assembleRelease` to generate the .aar
-3. The artifact will be available at `android/SellingCartLibrary/build/outputs/aar/`.
+2. Run `cd android && ./gradlew :MyModuleLibrary:assembleRelease` to generate the .aar
+3. The artifact will be available at `android/MyModuleLibrary/build/outputs/aar/`.
