@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build-ios-bundle": "react-native bundle --entry-file='index.js' --bundle-output='./ios/index.ios.jsbundle' --dev=false --platform='ios' --assets-dest='./ios/assets/'",
-    "build-android-bundle": "react-native bundle --platform='android' --dev=false --entry-file='index.js' --bundle-output='android/MyModule/src/main/assets/index.android.bundle' --assets-dest='android/MyModuleLibrary/src/main/res'",
+    "build-android-bundle": "react-native bundle --platform='android' --dev=false --entry-file='index.js' --bundle-output='android/MyModuleLibrary/src/main/assets/index.android.bundle' --assets-dest='android/MyModuleLibrary/src/main/res'",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
