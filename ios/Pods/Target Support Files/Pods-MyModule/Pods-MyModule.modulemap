@@ -1,0 +1,6 @@
+module Pods_MyModule {
+  umbrella header "Pods-MyModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
